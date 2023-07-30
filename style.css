@@ -1,0 +1,132 @@
+*{
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ol, ul{
+    list-style: none;
+}
+header {
+    background-color:#D9D9D9 ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+    max-width: 100%;
+    width:1440px;
+    margin-bottom: 160px ;
+   
+   
+}
+
+header ul {
+    display: flex;
+    margin: 0 130px;
+    
+}
+header li {
+     padding: 38px;
+}
+.background-img {
+    margin: 0 130px 160px 130px;
+    width: 1180px;
+    height: 287px;
+}
+
+
+.card-header {
+    display: flex;
+    margin: 0 130px 40px 130px;
+}
+ h3{
+    margin-left: 40px;
+    margin-bottom: 65px;
+    font-family: "DejaVu Sans", sans-serif ;
+    font-size: 32px;
+    color:#717276 ;
+}
+.card-header .frame{
+    margin-bottom: 40px;
+    width: 100px;
+    height: 100px;
+}
+.card-box {
+    display: flex;
+    margin: 0 130px;
+    width: 1180px;
+    height: 716px;
+}
+.card-box.card {
+    width: 380px; 
+   
+ }
+.card-box img{
+    width: 380px;
+    height: 512px;
+    padding: 20px;
+}
+.card-box .text1{
+    margin-top: 50px;
+    font-family: DejaVu Sans ;
+    font-weight: 700px;
+    font-size: 24px;
+    line-height: 38.61px;
+    color: #717276
+}
+.card-box .text2 {
+    font-family:ALK Life ;
+    font-size: 24px;
+    font-weight: 400px;
+    line-height: 29.53px;
+    color:#000000 ;
+}
+.text3{
+font-family: DejaVu Sans;
+font-size: 24px;
+font-weight: 700px;
+line-height: 38.61px;
+color: #000000; 
+}
+.section2 {
+    margin: 160px 130px;
+}
+.section2 .card-header2 {
+    display: flex;
+}
+.section2 .autors {
+    display: flax;
+   
+}
+.autors img {
+    margin-top: 40px;
+   padding: 20px;
+    width: 280;
+    height: 260px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #D9D9D9;
+    height: 248px;
+    width: 1440px;
+    
+}
+.footer-nav {
+    margin-left: 130px; 
+    margin-bottom: 71px;
+    margin-top: 71px;
+   
+}
+.footer-nav li{
+    padding:8px
+}
+
+.icons {
+    margin-right: 130px;
+
+}
+i {
+    padding: 21px
+}
